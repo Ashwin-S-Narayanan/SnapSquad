@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- <body onload="generate()"> -->
+    <body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-wrapper">
+                <a class="logo" href="home.html"> <b>SNAP SQUAD</b> </a>
+            </div>
+
+            <ul class="navbar-links">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li><a href="#" id="loginBtn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="send_mail.php" method="POST" id="loginForm">
+                <h2>Login</h2>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="password" name="password" placeholder="Your Password" required>
+                <!-- <div id="user-input" class="inline">
+                    <input type="text" 
+                           id="submit" 
+                           placeholder="Captcha code" />
+                </div>
+            
+                <div class="inline" onclick="generate()">
+                    <i class="fas fa-sync"></i>
+                </div>
+            
+                <div id="image" 
+                     class="inline" 
+                     selectable="False">
+                </div> -->
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="container">
+            <div class="box">
+                <h4 class="">Hello there !</h4>
+                <h1 class="">SnapSquad</h1>
+                <p class="">
+                    SnapSquad captures life's most vibrant moments with a fresh and funky twist. Our dynamic team brings your stories to life through creative and unique photography.
+                </p>
+                <a href="gallery.html" class="btn">Gallery</a>
+                <a href="booking.html" class="btn">For Bookings</a>
+            </div>
+
+        </div>
+    </div>
+    <section class="about bg-light" id="about">
+        <div class="container">
+
+            <div class="box">
+                <h2 class="title">
+                    SnapSquad, Capturing Life's Vibrant Moments with a Funky, Creative Twist
+                </h2>
+                <p>
+                    At SnapSquad, we specialize in capturing life's most vibrant and memorable moments with a fresh, unique approach. Our dynamic team of photographers brings creativity and unique flair to every shoot. Let us turn your special moments into extraordinary visual stories.
+                </p>
+                <ul>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Over 15 years of experience</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>200+ successfully executed projects</span>
+
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Exceptional work quality</span>
+                    </li>
+                </ul>
+
+                <div class="about-bottom">
+                    <img src="images/signature.png" alt=""
+                        class="signature">
+                    <div class="about-name-wrapper">
+                        <div class="about-name-dark">SNap SQuad</div>
+                        <div class="about-rol">PHotons</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-img">
+                <div class="img">
+                    <img src="./images/pexels-alexis-caso-2944191.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section class="services bg-dark" id="services">
+        <div class="heading">
+            <h2 class="section-title"><span>Services</span></h2>
+            <p class="section-title2">Photography for events, portraits, and creative projects, blending vibrant style with personalized storytelling and exceptional quality.</p>
+        </div>
+        <div class="container">
+
+            <div class="box border-01">
+                <div class="item">
+                    <img src="images/icons/icon-1.png" alt="">
+                        <h6>Photography</h6>
+                        <p>Capturing timeless moments through the art of light and lens.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="box border-02">
+                <div class="item">
+                    <img src="images/icons/icon-2.png" alt="">
+                        <h6>Videography</h6>
+                        <p>Capturing dynamic moments through cinematic storytelling.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box border-03">
+                <div class="item">
+                    <img src="images/icons/icon-3.png" alt="">
+
+                        <h6>Photo Retouching</h6>
+                        <p>Enhancing images to perfection with expert editing.</p>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="box border-04">
+                <div class="item">
+                    <img src="images/icons/icon-4.png" alt="">
+                        <h6>Aerial Photography</h6>
+                        <p>Stunning aerial views showcasing breathtaking perspectives.</p>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="box border-05">
+                <div class="item">
+                    <img src="images/icons/icon-5.png" alt="">
+                        <h6>Lightning Setup</h6>
+                        <p>Professional lighting to highlight and enhance your subjects.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="box border-06">
+                <div class="item">
+                    <img src="images/icons/icon-6.png" alt="">
+                        <h6>Video Color Grading</h6>
+                        <p>Crafting visually appealing videos with precise color correction.</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+
+
+
+    
+    <section class="gallery bg-dark" id="works">
+        <div class="heading">
+            <h2 class="title">Our Works</h2>
+        </div>
+        <div class="container">
+            <div class="grid-wrapper">
+                <div class="image tall">
+                    <img src="./images/album/pexels-photo-1055613.jpg" alt="1"/>
+                </div>
+                <div class="image wide">
+                    <img src="./images/album/pexels-photo-1738986.jpg" alt="2"/>
+                </div>
+                <div class="image tall">
+                    <img src="./images/album/pexels-photo-2970287.jpg" alt="3" >
+
+                </div>
+                <div class="image">
+                    <img src="./images/album/pexels-photo-1722206.jpg" alt="4" />
+
+                </div>
+                <div class="image ">
+                    <img src="./images/album/pexels-photo-3494648.jpg" alt="5"/>
+                </div>
+         
+       
+
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact bg-light" id="contact">
+        <div class="container">
+
+            <div class="box">
+                <h2 class="title">
+                    Need help with professional photography? Let's work together!
+                </h2>
+                <ul>
+                    <li>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>+91 9898989898</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-at" aria-hidden="true"></i>
+                        <span>snapsquad@photons.com</span>
+
+                    </li>
+                    <li>
+                        <i class="fa fa-location-pin" aria-hidden="true"></i>
+                        <span>SnapSquad Photography
+                            Boutique Studio, Elegant Avenue,
+                            New Delhi, India</span>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="box">
+                <div class="box-r">
+                    <div class="form-box">
+                        <div class="form-title">
+                            <h2>Get in touch</h2>
+                        </div>
+                        <form action="" method="post">
+                            <div class="one-line">
+                                <div class="box-input">
+                                    <i class="far fa-user"></i>
+                                    <input type="text" name="" id="" class="text" placeholder="Full Name..">
+                                </div>
+                                <div class="box-input">
+                                    <i class="fa fa-phone"></i>
+                                    <input type="text" name="" id="" class="text" placeholder="your phone">
+                                </div>
+                            </div>
+
+                            <div class="box-input">
+                                <i class="fa fa-at"></i>
+                                <input type="email" name="" id="" class="text" placeholder="email..">
+                            </div>
+                            <button class="btn-send">Contact us</button>
+                        </form>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="newsletter">
+            <div class="container">
+                <div class="box">
+                    <h2>Sign up to get latest update</h2>
+                    <p>Sign up for our monthly newsletter for the latest news &amp; articles</p>
+                </div>
+                <div class="form">
+                    <form>
+                        <input type="email" name="email" placeholder="Enter Email Address" required="">
+                        <button>Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="second-footer">
+            <div class="container">
+                <div class="box">
+                    <div class="logo-wrapper">
+                        <a class="logo" href="index.html"> SnapSquad </a>
+                    </div>
+                    <div class="text">
+                        <p>Capture Life's Vibrancy with SnapSquad Photography – Where Every Moment Shines with Creative Excellence.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 class="title">Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3 class="title">Contact</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <span>
+                                +91 9898989898
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa fa-at"></i>
+                            <span>
+                                snapsquad@photons.com
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                SnapSquad Photography
+                                Boutique Studio, Elegant Avenue,
+                                New Delhi, India
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" copyright">
+            <div class="box">
+                <p class="">Copyright © 2023 by <a href="#">snapsquad</a>. All rights reserved.</p>
+            </div>
+            <div class="box">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="scriptsphoto.js"></script>
+
+</body>
+
+</html>

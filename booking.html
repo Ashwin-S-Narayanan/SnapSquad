@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Booking</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo-wrapper">
+                    <a class="logo" href="booking.html"> <b>SNAP SQUAD</b> </a>
+                </div>
+    
+                <ul class="navbar-links">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="service" id="traditional-photography">
+            <img src="images/booking/tdph.jpeg" alt="Traditional Photography">
+            <div class="description">
+                <h2>Traditional Photography</h2>
+                <p>Traditional photography       captures the essence of an event or a moment through posed photographs and formal shots. This style focuses on classic poses, carefully arranged scenes, and well-lit compositions. It emphasizes the importance of capturing every detail, from the bride's dress to the groom's expression. </p>
+                <button class="book-now">Book Now</button>
+            </div>
+        </section>
+        <section class="service" id="traditional-videography">
+            <img src="images/booking/tdvh.jpeg" alt="Traditional Videography">
+            <div class="description">
+                <h2>Traditional Videography</h2>
+                <p>Traditional videography involves capturing events with a structured and formal approach. This style includes staged scenes, interviews, and detailed coverage of the event. It emphasizes continuity and narrative flow, ensuring all critical moments are recorded. Videographers use professional equipment to ensure high-quality footage.</p>
+                <button class="book-now">Book Now</button>
+            </div>
+        </section>
+        <section class="service" id="candid-photography">
+            <img src="images/booking/caph.jpg" alt="Candid Videography">
+            <div class="description">
+                <h2>Candid Photography</h2>
+                <p>Candid photography captures spontaneous moments without posing or interfering with the subjects. This style focuses on natural expressions, genuine emotions, and unscripted interactions. Photographers blend into the background, allowing events to unfold naturally.</p>
+                <button class="book-now">Book Now</button>
+            </div>
+        </section>
+        <section class="service" id="candi-videography">
+            <img src="images/booking/cavh.jpg" alt="Candid Videography">
+            <div class="description">
+                <h2>Candid Videography</h2>
+                <p>Candid videography involves capturing real-life moments and interactions as they happen. This style is less intrusive, focusing on natural expressions and genuine emotions. Videographers use minimal staging, allowing events to flow naturally. It's perfect for capturing the true atmosphere of an event, showcasing unscripted reactions and interactions.</p>
+                <button class="book-now">Book Now</button>
+            </div>
+        </section>
+        <section class="service" id="drone">
+            <img src="images/booking/drone.jpeg" alt="Drone">
+            <div class="description">
+                <h2>Drone</h2>
+                <p>Drone photography provides a unique aerial perspective, capturing stunning views from above. This style uses drones equipped with cameras to photograph landscapes, events, and structures. It's perfect for capturing expansive views, architectural details, and large gatherings. Drone photography offers angles and compositions that are impossible from the ground.</p>
+                <button class="book-now">Book Now</button>
+            </div>
+        </section>
+        
+    </main>
+
+    <div class="modal" id="booking-form-modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <form id="booking-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="event-name">Event Name:</label>
+                    <input type="text" id="event-name" name="event-name" required>
+                </div>
+                <div>
+                    <label for="event-venue">Event Venue:</label>
+                    <input type="text" id="event-venue" name="event-venue" required>
+                </div>
+                <div id="services">
+                    <label><input type="checkbox" id="service1" name="services" value="Traditional Photography"> Traditional Photography</label>
+                    <label><input type="checkbox" id="service2" name="services" value="Traditional Videography"> Traditional Videography</label>
+                    <label><input type="checkbox" id="service3" name="services" value="Candid Photography"> Candid Photography</label>
+                    <label><input type="checkbox" id="service4" name="services" value="Candid Videography"> Candid Videography</label>
+                    <label><input type="checkbox" id="service5" name="services" value="Drone"> Drone</label>
+                    <label><input type="checkbox" id="service6" name="services" value="LED Wall"> LED Wall</label>
+                    <label><input type="checkbox" id="service7" name="services" value="LED TV"> LED TV</label>
+                    <label><input type="checkbox" id="service8" name="services" value="Photo Booth"> Photo Booth</label>
+                </div>
+                <div>
+                    <label for="special-request">Any Special Request:</label>
+                    <textarea id="special-request" name="special-request"></textarea>
+                </div>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </div>
+    
+    
+    <footer class="footer">
+        <div class="newsletter">
+            <div class="container">
+                <div class="box">
+                    <h2>Sign up to get latest update</h2>
+                    <p>Sign up for our monthly newsletter for the latest news &amp; articles</p>
+                </div>
+                <div class="form">
+                    <form>
+                        <input type="email" name="email" placeholder="Enter Email Address" required="">
+                        <button>Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="second-footer">
+            <div class="container">
+                <div class="box">
+                    <div class="logo-wrapper">
+                        <a class="logo" href="index.html"> SnapSquad </a>
+                    </div>
+                    <div class="text">
+                        <p>Capture Life's Vibrancy with SnapSquad Photography – Where Every Moment Shines with Creative Excellence.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 class="title">Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="works.html">Works</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3 class="title">Contact</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <span>
+                                +91 9898989898
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa fa-at"></i>
+                            <span>
+                                snapsquad@photons.com
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                SnapSquad Photography
+                                Boutique Studio, Elegant Avenue,
+                                New Delhi, India
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" copyright">
+            <div class="box">
+                <p class="">Copyright © 2023 by <a href="#">snapsquad</a>. All rights reserved.</p>
+            </div>
+            <div class="box">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
